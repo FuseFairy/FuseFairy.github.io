@@ -52,7 +52,7 @@ pwsh -Command "iwr https://fly.io/install.ps1 -useb | iex"
 <img src="https://i.imgur.com/2uKxprA.png" width="70%" height="70%">
 
 ## step 4
-建立Dockerfile，新增一個叫 Dockerfile 的檔案，把以下內容複製貼到進去(記事本編輯即可)。
+新建一個名叫 Dockerfile 的檔案，把以下內容複製貼到進去(記事本編輯即可)。
 
 ```Dockerfile
 FROM python:3.10.9
