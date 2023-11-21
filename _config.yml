@@ -68,7 +68,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  DiscordBot: discordbot
+  Discord Bot: discord bot
 tag_map:
   Discord: discord
   Python: python

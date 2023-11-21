@@ -1,10 +1,13 @@
 ---
 title: Discord Bot Twitter推文通知 - 免費部署到fly.io
-categories: DiscordBot
+categories: Discord Bot
 tags: [Discord, python, Twitter(x)]
 photos: https://i.imgur.com/v7YbXXy.png
 date: 2023-11-20 21:27:15
 ---
+> 巴哈排版太麻煩，所以遷移。   
+  原文: https://home.gamer.com.tw/artwork.php?sn=5808333
+
 自從Twitter執行長Musk修改api後，各大Discord伺服器的Twitter轉發bot應該都無法繼續運作，除非付費，但我們還是有免費的方法可以用，感謝Github上大神弄得逆向工程 [tweety-ns](https://github.com/mahrtayyab/tweety)，接下來介紹使用該逆向工程製作的discord bot。
 
 
@@ -154,4 +157,4 @@ tasks_monitor_log_period: 14400    # 將當前運行中的任務列表輸出到�
 ===
 步驟應該算是很完整了，有不清楚的部份或是跟discord bot相關的問題都可以問，我會盡快回覆。祝大家都可以順利完成自己的 discord bot 部署。題外話，由於該 discord bot 的架構是 cog，所以可以很輕易地擴充其他功能或是指令，有興趣的可以自行研究。
 
->cog相關教學: https://hackmd.io/@smallshawn95/python_discord_bot_cog
+> cog相關教學: https://hackmd.io/@smallshawn95/python_discord_bot_cog
