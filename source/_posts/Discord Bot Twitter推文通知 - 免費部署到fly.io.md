@@ -1,5 +1,5 @@
 ---
-title: Discord Bot Twitter推文通知 - 免費部署到fly.io
+title: Discord Bot Twitter推文通知－免費部署到fly.io
 categories: Discord Bot
 tags: [Discord, python, Twitter(x)]
 photos: https://i.imgur.com/v7YbXXy.png
@@ -14,7 +14,7 @@ date: 2023-11-20 21:27:15
 
 Tweetcord
 ===
-Repository Link: https://github.com/Yuuzi261/Tweetcord
+Repository Link：https://github.com/Yuuzi261/Tweetcord
 
 原理: 每隔一定的時間就去抓Twitter的通知，如果發現設置的轉推對像有新的推文，那就會即時發送到discord頻道。
 
@@ -138,7 +138,7 @@ tasks_monitor_log_period: 14400    # 將當前運行中的任務列表輸出到�
 ![result](https://i.imgur.com/qaGn0AY.png)
 
 ## final step
-回到 cmd 輸入 flyctl deploy ，這個指令會開始部署 bot，如果以後常常更新 bot 的話，一樣是用這個指令部署，第一次使用該指令的話會要點時間。
+回到 cmd 輸入`flyctl deploy`，這個指令會開始部署 bot，如果以後常常更新 bot 的話，一樣是用這個指令部署，第一次使用該指令的話會要點時間。
    
 看到這個就代表你至少部署成功了，但是還不能確定bot是不是成功啟動，連接點進去可以到看bot在後台運行的狀況。
 
